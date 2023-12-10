@@ -1,0 +1,8 @@
+{
+  "mainnet": {
+    "TWCloneFactory": {
+      "address": "0x76F948E5F13B9A84A81E5681df8682BBf524805E",
+      "startBlock": 17344692
+    }
+  }
+}

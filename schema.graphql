@@ -1,0 +1,9 @@
+type ProxyDeployed @entity(immutable: true) {
+  id: Bytes!
+  implementation: Bytes! # address
+  proxy: Bytes! # address
+  deployer: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
