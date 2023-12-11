@@ -1,6 +1,6 @@
 specVersion: 0.0.5
 schema:
-  file: ./schema.graphql
+  file: schema.graphql
 dataSources:
   - kind: ethereum
     name: TWCloneFactory
@@ -17,8 +17,8 @@ dataSources:
         - ProxyDeployed
       abis:
         - name: TWCloneFactory
-          file: ./abis/TWCloneFactory.json
+          file: TWCloneFactory\abis\TWCloneFactory.json
       eventHandlers:
         - event: ProxyDeployed(indexed address,address,indexed address)
           handler: handleProxyDeployed
-      file: ./src/tw-clone-factory.ts
+      file: TWCloneFactory\TWCloneFactory.wasm
